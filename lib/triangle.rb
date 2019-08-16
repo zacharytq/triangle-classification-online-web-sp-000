@@ -10,6 +10,8 @@ class Triangle
 
   def kind
     if @sides.max >= @sides.min(2).sum
+      raise TriangleError
+    else
   end
 
 
