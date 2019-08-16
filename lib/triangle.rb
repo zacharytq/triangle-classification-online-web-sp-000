@@ -11,7 +11,11 @@ class Triangle
   def kind
     if @sides.uniq.length == 1
       :equilateral
-    elsif
+    elsif @sides.uniq.length == 2
+      :isosceles
+    else
+      :scalene
+    end
   end
 
 
