@@ -5,11 +5,12 @@ class Triangle
     @bb = bb
     @cc = cc
   end
+
   class TriangleError <StandardError
   end
 
   def kind
-    if a == b && a == c
+    if @aa == @bb && @aa == @cc
       :equilateral
     end
   end
