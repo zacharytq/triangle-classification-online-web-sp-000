@@ -1,11 +1,9 @@
 class Triangle
   # write code here
-  def initialize(a, b, c)
-    @a = a
-    @b = b
-    @c = case end
-    when condition
+  class TriangleError <StandardError
+  end
 
-    end
+  def kind(a, b, c)
+
 
 end
