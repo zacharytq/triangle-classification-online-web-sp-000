@@ -4,6 +4,10 @@ class Triangle
   end
 
   def kind(a, b, c)
+    if a == b && a == c
+      :equilateral
+    end
+  end
 
 
 end
