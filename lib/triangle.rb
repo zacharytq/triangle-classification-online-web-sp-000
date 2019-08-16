@@ -4,6 +4,7 @@ class Triangle
     @aa = aa
     @bb = bb
     @cc = cc
+    @sides = [@aa, @bb, @cc]
   end
 
   class TriangleError <StandardError
@@ -12,7 +13,7 @@ class Triangle
   def kind
     if @aa == @bb && @aa == @cc
       :equilateral
-    end
+    elsif @aa ==
   end
 
 
