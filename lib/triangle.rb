@@ -9,13 +9,7 @@ class Triangle
   end
 
   def kind
-    if @sides.uniq.length == 1
-      :equilateral
-    elsif @sides.uniq.length == 2
-      :isosceles
-    else
-      :scalene
-    end
+    if @sides.max >= @sides.min(2).sum
   end
 
 
